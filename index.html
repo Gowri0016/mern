@@ -89,6 +89,90 @@
         flex-direction: row;
         text-justify: inter-word;   
        }
+       @media screen and (max-width: 500px) {
+        body{
+            background-color: lightgray;
+        }
+        form{
+            background-color: darkslategray;
+            width: 50%;
+            height: 250px;
+            border-radius: 10px;
+            padding: 20px;
+            position: absolute;
+            top: 1px;
+            right: 0;
+        }
+        form:hover{
+         color: black;
+            background-color:lightgray;
+        }
+        input{
+         font-size: 15px;
+         width: 20%;
+         border: 1px solid black;
+         border-radius: 5px;
+         padding: 10px;
+         border: 1px solid black;
+         border-radius: 5px;
+         margin: 5px;
+        }
+        label{
+            padding: 10px;
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            align-items: center;
+        }
+        img{
+         width: 50%;
+         height: 50%;
+        }
+        button{
+         font-size: 15px;
+         width: 15%;
+         border: 1px solid black;
+         border-radius: 5px;
+         padding: 10px;
+         margin: 5px;
+        }
+        button:hover{
+         color: black;
+         background-color:skyblue;
+        }
+        table{
+         text-align: center;
+         position: relative;
+         width: 47%;
+         border: 1px solid black;
+        }
+        td,th{
+         padding: 10px;
+         border: 1px solid black;
+        }
+        caption{
+         padding: 10px; 
+        }
+        p{
+         width: 25%;
+         font-size: larger;
+         display: flex;
+         justify-content: start;
+         flex-wrap: wrap;
+         flex-direction: row;
+         text-justify: inter-word;
+        }
+        pre{
+         font-size: larger;
+         display: flex;
+         justify-content: start;
+         flex-wrap: wrap;
+         flex-direction: row;
+         text-justify: inter-word;
+        }
+
+        
+       }
     </style>
 
 <body>
@@ -98,8 +182,8 @@
 
 
     <pre>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat odit obcaecati nobis
-laboriosam voluptates perspiciatis aspernatur repudiandae exercitationem consequuntur ut necessitatibus, 
+Lorem ipsum, dolor sit amet consectetur adipisicing <br> elit. Fugiat odit obcaecati nobis
+laboriosam voluptates <br> perspiciatis aspernatur repudiandae exercitationem <br> consequuntur ut necessitatibus, 
 eaque saepe labore vitae minima quam autem dicta optio.
     </pre>
 
