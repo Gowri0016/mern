@@ -3,67 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./">
     <title>ECE E</title>
-    <style>
-        h1, h2, h3, h4 {
-            color: red;
-            text-align: center;
-        }
-        button {
-            background-color: red;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        li  {
-            color: green;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-    </style>
 </head>
+
+    <style>
+       body{
+           background-color: lightgray;
+       }
+       body:hover{
+        color: white;
+           background-color: darkslategray;
+       }
+       form{
+           background-color: darkslategray;
+           width: 50%;
+           height: 95.5vh;
+           border-radius: 10px;
+           padding: 20px;
+           position: absolute;
+           top: 1px;
+           right: 0;
+       }
+       form:hover{
+        color: black;
+           background-color:lightgray;
+       }
+       input{
+        font-size: 15px;
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 5px;
+       }
+       label{
+           padding: 10px;
+           margin: 5px;
+           font-size: 20px;
+           font-weight: bold;
+           align-items: center;
+       }
+       button{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+       }
+       button:hover{
+        color: black;
+           background-color:skyblue;
+       }
+       table{
+        text-align: center;
+        position: relative;
+        width: 47%;
+        border: 1px solid black;
+       }
+       td,th{
+        padding: 10px;
+        border: 1px solid black;
+       }
+       caption{
+        padding: 10px;
+       }
+       p{
+        width: 25%;
+        font-size: larger;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-justify: inter-word;   
+       }
+       pre{
+        font-size: larger;
+        width: 18%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-justify: inter-word;   
+       }
+    </style>
+
 <body>
-    <hr>
-    <h1>Hello Shree</h1> 
-    <h2>Hello Shree</h2>
-    <h3>Hello Shree</h3>
-    <h4>Hello Shree</h4>
-
    
-    <ol>
-        <li>Welcome to web development</li>
-        <li>Welcome to web development</li>
-        <li>Welcome to web development</li>
-        <li>Welcome to web development</li>
-        <li>Welcome to web development</li>
-    </ol>
-
-  
-    <ul>
-        <li>Create hello world</li>
-        <li>Create hello world</li>
-        <li>Create hello world</li>
-        <li>Create hello world</li>
-        <li>Create hello world</li>
-    </ul>
-
-    
+    <h1>Hello Shree</h1> 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum recusandae nesciunt eaque quam eum perferendis quod laboriosam, ut sequi asperiores.</p>
 
 
@@ -74,11 +102,7 @@ eaque saepe labore vitae minima quam autem dicta optio.
     </pre>
 
   
-    <img src="./../image.png" alt="Hi" width="200px" height="100px"><br>
-
-   
-    <a href="https://react.dev/community">React</a><br>
-    <a href="https://react.dev/community">React</a><br>
+    <a href="https://react.dev"><img src="./React.gif" alt="Load"></a>
     <!-- <a target="_blank" href="https://react.dev/community">React</a><br>    -->
 
     
@@ -105,8 +129,8 @@ eaque saepe labore vitae minima quam autem dicta optio.
                 <td>5</td>
                 <td>Preethi</td>
                 <td>ECE</td>
-                <td>9</td>
-                <td>90%</td>
+                <td>100</td>
+                <td>100%</td>
             </tr>
         </tbody>
     </table>
@@ -116,9 +140,9 @@ eaque saepe labore vitae minima quam autem dicta optio.
         <center>
             <h1>Login</h1>
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email"><br>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
             <label for="password">Password:</label>
-            <input type="password" id="password" placeholder="Enter your password"><br>
+            <input type="password" id="password" placeholder="Enter your password" required><br>
             <button type="submit">Submit</button>
         </center>
     </form>
